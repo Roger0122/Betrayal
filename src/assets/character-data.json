@@ -1,0 +1,19 @@
+[
+  { "name": "Aisling", "best": null, "second": null },
+  { "name": "Cameria", "best": "Fortification御防", "second": "其他還好" },
+  { "name": "Elreon", "best": "Transportation傳送", "second": "趕走它也可" },
+  { "name": "Gravicius", "best": "Transportation傳送", "second": "其他還好" },
+  { "name": "Cuff", "best": "Research研究", "second": "Transportation傳送orIntervention調停" },
+  { "name": "Haku", "best": "Intervention調停", "second": "Research研究" },
+  { "name": "Hillock", "best": null, "second": null },
+  { "name": "It That Fled", "best": null, "second": null },
+  { "name": "Janus", "best": "Research研究", "second": "傳送&御防" },
+  { "name": "Jorgin", "best": null, "second": null },
+  { "name": "Korell", "best": "傳送還可以其他還好", "second": null },
+  { "name": "Leo", "best": "Fortification御防", "second": "不要傳送都可" },
+  { "name": "Riker", "best": "Research研究", "second": null },
+  { "name": "Rin Yushu", "best": "Transportation傳送", "second": "Fortification御防" },
+  { "name": "Tora", "best": "Fortification御防", "second": "Research研究" },
+  { "name": "Vagan", "best": "Research研究", "second": "Transportation傳送" },
+  { "name": "Vorici", "best": "Transportation傳送", "second": "Fortification御防" }
+]
