@@ -1,10 +1,18 @@
-<template>
-  <div
+<template >
+  <div v-if="character.best"
     class="border rounded p-2 hover:bg-gray-100 cursor-pointer text-center"
     @click="$emit('click')"
   >
     <img :src="imgSrc" @error="onImgError" class="w-16 h-16 mx-auto mb-2" alt="頭像" />
     <p class="font-semibold">{{ character.name }}</p>
+  </div>
+  <div v-else
+    class="border rounded p-2 hover:bg-gray-100 cursor-pointer text-center"
+    @click="$emit('click')"
+  >
+    <img :src="imgSrc" @error="onImgError" class="w-16 h-16 mx-auto mb-2" alt="頭像" />
+    <p class="font-semibold">{{ character.name }}</p>
+    <p>可趕走</p>
   </div>
 </template>
 

@@ -4,8 +4,9 @@
       <h2 class="text-2xl font-bold mb-4">{{ character.name }}</h2>
 
       <template v-if="character.best">
-        <p class="mb-2 text-green-600">✅ 最佳部門：{{ character.best }}</p>
-        <p class="mb-2 text-yellow-500">🟡 次要部門：{{ character.second }}</p>
+        <p class="mb-2 text-green-600">✅ 最佳部門：{{ character.best }}<span>獎勵:{{ character.bestDrop}}</span></p>
+        
+        <p class="mb-2 text-yellow-500">🟡 次要部門：{{ character.second }}<span>獎勵:{{ character.secondDrop  }}</span></p> 
       </template>
 
       <template v-else>
